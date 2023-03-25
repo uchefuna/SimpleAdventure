@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Adventure</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/modal-styles.css">
+</head>
+
+<body>
+
+  <header></header>
+
+  <main>
+    <h1>Simple Adventure Game</h2>
+
+      <div id="playstartdiv">
+        <button id="playstart">Push button to start GAME</button>
+      </div>
+
+
+      <div id="displaybox">
+        <p id="displaybox0">ADVENTURE GAME</p>
+        <p id="gamerules">
+          <strong>RULES:</strong> CLICKING <strong><em>"YELLOW"</em></strong> INCREASES LIFE. CLICKING <strong><em>OTHER
+              COLOURS</em></strong> REDUCES
+          LIFE. WHEN LIFE REACHES ZERO, IT'S <strong>GAME OVER</strong>.
+        </p>
+        <p> >> <span id="displaybox1"></span> </p>
+        <p> >> <span id="displaybox2"></span> </p>
+        <p> >> <span id="displaybox3"></span> </p>
+        <p> >> <span id="displaybox4"></span> </p>
+      </div>
+
+      <div id="playbox">
+        <button id="redbtn">Push to RED</button>
+        <button id="greenbtn">Push to GREEN</button>
+        <button id="yellowbtn">Push to YELLOW</button>
+        <button id="bluebtn">Push to BLUE</button>
+      </div>
+      <p id="displaybox5">Buttons won't work unless your start GAME </p>
+  </main>
+
+  <footer></footer>
+
+  <div id="modalbox">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h2>Uche Modal Box</h2>
+      </div>
+
+      <div id="modalbody">
+        <div><span id="modallabel"></span></div>
+        <input type="text" id="inputbox" autocomplete="off"><br>
+        <button id="sendValue">Send</button>
+      </div>
+
+      <div class="modal-footer">
+        <button id="modalfoot">CHANGE</button>
+        <button id="modalhide">CANCEL</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="srcipts/scripts.js"></script>
+</body>
+
+</html>

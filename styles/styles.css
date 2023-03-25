@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background-color: #292a2cee;
+}
+
+h1 {
+  text-align: center;
+  color: #fffffffb;
+}
+
+#playstartdiv {
+  text-align: center;
+  cursor: pointer;
+}
+
+#playstart {
+  display: inline-block;
+  text-align: center;
+  padding: 0.7%;
+  font-size: 120%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#displaybox {
+  border: 2px solid hsl(39, 89%, 52%);
+  padding: 1.0%;
+  margin: 2%;
+  background-color: hsla(0, 0%, 94%, 0.637);
+  border-radius: 8px;
+}
+
+#displaybox p {
+  padding: 0 0 0 1.0%;
+}
+
+#displaybox0 {
+  text-align: center;
+  color: #e91a24fb;
+  font-size: 3.0em;
+  margin: 0;
+}
+
+#gamerules {
+  text-align: center;
+  color: #200aa1fb;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+#displaybox1, #displaybox2, #displaybox3, #displaybox4 {
+  color: #000000fb;
+  font-size: 1.4em;
+  margin: 1% 0 0;
+}
+
+#displaybox5 {
+  text-align: center;
+  color: #fffffffb;
+  font-size: 1.4em;
+  margin: 1% 0 0;
+}
+
+#playbox {
+  border: 2px solid hsl(39, 89%, 52%);
+  padding: 0.1%;
+  margin: 2%;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 8px;
+}
+
+#playbox>button {
+  cursor: pointer;
+}
+
+#redbtn, #greenbtn, #yellowbtn, #bluebtn {
+  padding: 0.5%;
+  width: 20%;
+  text-align: center;
+  font-size: 120%;
+  border-radius: 8px;
+  height: 100%;
+  border-radius: 8px;
+}
