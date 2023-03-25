@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -49,6 +49,7 @@ h1 {
   text-align: center;
   color: #200aa1fb;
   font-size: 1.3em;
+  letter-spacing: 1.5px;
   margin: 0;
 }
 
@@ -62,6 +63,7 @@ h1 {
   text-align: center;
   color: #fffffffb;
   font-size: 1.4em;
+  letter-spacing: 2px;
   margin: 1% 0 0;
 }
 

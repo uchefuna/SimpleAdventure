@@ -74,7 +74,21 @@ window.onclick = function (event) {
 
 function initProcess() {
   console.clear(), claerHTML();
-  modalBoxCall('Passcode', 'Enter your Passcode');
+  modalBoxCall('Passcode', 'Enter the Passcode');
+
+  let twowords1 = "Enter the passcode to continue.";
+  console.log(twowords1);
+  displaybox1.innerHTML = twowords1;
+
+  modalbox.animate(
+    [
+      { top: "-300px", opacity: "0" },
+      { top: "0", opacity: "0.5" },
+    ],
+    {
+      duration: 300,
+    }
+  );
 }
 
 function claerHTML() {
@@ -193,10 +207,10 @@ function startAdventure(numOfPlayTime) {
       playstart.focus(), modalRmoval();
       return;
     } else {
-      let twowords1 = "Your passcode is correct! Please enter your username to continue.";
+      let twowords1 = "The passcode is correct! Please enter rhe username to continue.";
       console.log(twowords1);
       displaybox1.innerHTML = twowords1;
-      modalBoxCall('Username', 'Enter your username');
+      modalBoxCall('Username', 'Enter the username');
     }
   }
 }
@@ -204,7 +218,7 @@ function startAdventure(numOfPlayTime) {
 
 function usrNameInput(usrName) {
   if (usrName.toLowerCase() == 'uche') {
-    let twowords1 = "Your username is: " + usrName + ". That's correct! You can start to play the game";
+    let twowords1 = "The username is: " + usrName + ". That's correct! You can start to play the game";
     console.log(twowords1);
     displaybox1.innerHTML = twowords1;
 
