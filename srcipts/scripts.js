@@ -1,5 +1,5 @@
 
-let usrName, quest, favColor, getModalValue, playgame = 0, numOfPlayTime = 0, numOfLife = 0, usrAttempts = 5;
+let usrName, quest, favColor, getModalValue,  numOfPlayTime = 0, numOfLife = 0, usrAttempts = 5;
 
 const playstart = document.getElementById('playstart');
 const redbtn = document.getElementById('redbtn');
@@ -7,13 +7,15 @@ const greenbtn = document.getElementById('greenbtn');
 const yellowbtn = document.getElementById('yellowbtn');
 const bluebtn = document.getElementById('bluebtn');
 const displaybox = document.getElementById('displaybox');
+
 const modalbox = document.getElementById("modalbox");
 const modalbody = document.getElementById("modalbody");
-const modalfoot = document.getElementById("modalfoot");
-const modalhide = document.getElementById("modalhide");
-const inputbox = document.getElementById("inputbox");
-const sendValue = document.getElementById("sendValue");
 const modallabel = document.getElementById("modallabel");
+const inputbox = document.getElementById("inputbox");
+const modalfoot = document.getElementById("modalfoot");
+const sendValue = document.getElementById("sendValue");
+const modalhide = document.getElementById("modalhide");
+
 const displaybox1 = document.getElementById("displaybox1");
 const displaybox2 = document.getElementById("displaybox2");
 const displaybox3 = document.getElementById("displaybox3");
@@ -215,7 +217,6 @@ function startAdventure(numOfPlayTime) {
   }
 }
 
-
 function usrNameInput(usrName) {
   if (usrName.toLowerCase() == 'uche') {
     let twowords1 = "The username is: " + usrName + ". That's correct! You can start to play the game";
@@ -290,7 +291,7 @@ function gameAdventure(favColor) {
   }
 
   if (numOfLife == 0) {
-    playgame = 0, numOfPlayTime = 0, numOfLife = 0, usrAttempts = 0;
+     numOfPlayTime = 0, numOfLife = 0, usrAttempts = 0;
     playstart.focus();
 
     twowords1 = "The total life left is " + numOfLife + ".";
