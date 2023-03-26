@@ -64,7 +64,7 @@ window.onclick = function (event) {
     modalRmoval(), playstart.focus();
   }
   else if (event.target == sendValue) {
-    if (modallabel.textContent === 'KeyPass') {
+    if (modallabel.textContent === 'Passcode') {
       startAdventure(modalValue());
     } else if (modallabel.textContent === 'Username') {
       usrNameInput(modalValue());
