@@ -62,13 +62,13 @@ h1 {
   margin: 0;
 }
 
-#displaybox1, #displaybox2, #displaybox3, #displaybox4 {
+.displaylines {
   color: #000000fb;
   font-size: 1.5em;
   margin: 1% 0 0;
 }
 
-.displaybox5 {
+.displaylast {
   text-align: center;
   color: #fffffffb;
   font-size: 1.4em;
@@ -106,18 +106,18 @@ h1 {
   border: none;
 }
 
-#redbtn:hover {
+.colorbtn:nth-child(1):hover {
   background-color: #e44a36d5;
 }
 
-#greenbtn:hover {
+.colorbtn:nth-child(2):hover {
   background-color: #09853cd8;
 }
 
-#yellowbtn:hover {
+.colorbtn:nth-child(3):hover {
   background-color: #ffff0371;
 }
 
-#bluebtn:hover {
+.colorbtn:nth-child(4):hover {
   background-color: #5345adf1;
 }

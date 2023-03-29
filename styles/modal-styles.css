@@ -1,14 +1,14 @@
-#modalbox {
+.modalcontainer {
   display: none;
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 100%;
   top: 0;
-  padding-top: 340px;
+  padding-top: 355px;
 }
 
-.modal-content {
+#modalcontent {
   width: 30%;
   margin: auto;
   position: relative;
@@ -25,7 +25,7 @@
   background-color: #18eeca;
 }
 
-#modalbody {
+.modalbody {
   padding: 5% 3%;
   text-align: center;
   border-left: 1px solid #18eeca;
@@ -33,14 +33,14 @@
 }
 
 
-#modalbody div {
+.modalbody div {
   color: #e48e0d;
   text-align: center;
   margin: 0 0 8% 0;
   font-size: 4vw;
 }
 
-#modalbody input {
+.modalbody input {
   width: 80%;
   font-size: 2vw;
   margin: 0 0 12% 0;
@@ -48,14 +48,14 @@
   background-color: rgba(250, 250, 250, 0.918);
 }
 
-.modal-footer {
-  border-radius: 0px 0px 8px 8px;
-  padding: 7px;
+.modalfooter {
+  border-radius: 0 0 8px 8px;
+  padding: 1%;
   background-color: rgb(175, 166, 166);
   text-align: center;
 }
 
-.modal-footer>button {
+.modalfooter>button {
   border-radius: 8px;
   font-weight: bold;
   font-size: 1.2vw;
@@ -63,21 +63,16 @@
   cursor: pointer;
 }
 
-#modalfoot {
+.modalfooter>button:nth-child(1) {
   float: left;
   background-color: #15cce4;
-  color: #000000;
 }
 
-#sendValue {
+.modalfooter>button:nth-child(2) {
   background-color: #f1b6a7;
-  /* margin: 0 0 0 7vw; */
-  /* padding: 0 5% 0; */
 }
 
-#modalhide {
+.modalfooter>button:nth-child(3) {
   float: right;
   color: rgb(61, 42, 231);
-  /* transition: 0.3s; */
-  /* clear: both; */
 }

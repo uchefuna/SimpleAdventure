@@ -3,11 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="author" content="Uchefuna Ezike">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Adventure</title>
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/modal-styles.css">
+  <script src="srcipts/scripts.js" defer></script>
 </head>
 
 <body>
@@ -28,53 +31,46 @@
             COLOURS</em></strong> REDUCES
         LIFE. WHEN LIFE REACHES ZERO, IT'S <strong>GAME OVER</strong>.
       </p>
-      <p> >> <span id="displaybox1">Press "Enter" or click on the button "START GAME" on top to start the game.</span>
+      <p> >> <span class="displaylines">Press "Enter" or click on the button "START GAME" on top to
+          start the game.</span>
       </p>
-      <p> >> <span id="displaybox2"></span> </p>
-      <p> >> <span id="displaybox3"></span> </p>
-      <p> >> <span id="displaybox4"></span> </p>
+      <p> >> <span class="displaylines"></span> </p>
+      <p> >> <span class="displaylines"></span> </p>
+      <p> >> <span class="displaylines"></span> </p>
     </div>
 
     <div id="playbox">
-      <button id="redbtn">Push to RED</button>
-      <button id="greenbtn">Push to GREEN</button>
-      <button id="yellowbtn">Push to YELLOW</button>
-      <button id="bluebtn">Push to BLUE</button>
+      <button class="colorbtn">Push to RED</button>
+      <button class="colorbtn">Push to GREEN</button>
+      <button class="colorbtn">Push to YELLOW</button>
+      <button class="colorbtn">Push to BLUE</button>
     </div>
-    <p class="displaybox5">Buttons won't work unless your start GAME </p>
+    <p class="displaylast">Buttons won't work unless your start GAME </p>
     <br>
-    <p class="displaybox5">
-      Passcode:
-      <span style="color: #ffdb11f8;">2831</span>
-      <span style="color: #ff2111f8;"> | </span>
-      Username:
-      <span style="color: #ffdb11f8;">UCHE</span>
-    </p>
   </main>
 
   <footer></footer>
 
-  <div id="modalbox">
-    <div class="modal-content">
+  <div class="modalbox modalcontainer">
+    <div id="modalcontent">
 
       <div class="modal-header">
         <h2>Uche Modal Box</h2>
       </div>
 
-      <div id="modalbody">
-        <div><span id="modallabel"></span></div>
-        <input type="text" id="inputbox" autocomplete="off"><br>
+      <div class="modalbox modalbody">
+        <div><span class="modalbox"></span></div>
+        <input type="text" class="modalbox" autocomplete="off"><br>
       </div>
 
-      <div class="modal-footer">
-        <button id="modalfoot">CHANGE</button>
-        <button id="sendValue">SEND</button>
-        <button id="modalhide">CANCEL</button>
+      <div class="modalfooter">
+        <button class="modalbox">CHANGE</button>
+        <button class="modalbox">SEND</button>
+        <button class="modalbox">CANCEL</button>
       </div>
     </div>
   </div>
 
-  <script src="srcipts/scripts.js"></script>
 </body>
 
 </html>
